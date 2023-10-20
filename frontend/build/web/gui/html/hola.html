@@ -1,0 +1,82 @@
+<div class="my-3">
+    <div class="p-5 text-white rounded-2" style="background-color: #556380">
+        <div class="modal-header">
+            <h2 style="color: #FFFFFF;">¡ Hola { REST } !</h2>
+            <button onclick="history.go(0)" class="btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#9DADCC"
+                    class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z" />
+                </svg>
+            </button>
+        </div>
+        <div class="container py-5">
+            <div class="form-text" style="color: #9DADCC;">saludar();</div>
+            <div class="row">
+                <div class="col-md align-self-center pt-3 mb-3">
+                    <button onclick="saludar()" class="btn btn-md w-100 h-50"
+                        style="background-color: #9DADCC">GET</button>
+                </div>
+                <div class="col-lg-8 py-5 px-5 rounded-5" style="background-color: #24314D;">
+                    <p id="txtSaludar">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5">
+            <div class="form-text" style="color: #9DADCC;">saludarNombre();</div>
+            <div class="row">
+                <div class="col-md d-grid gap-3 align-self-center pt-3 mb-3">
+                    <input type="text" class="form-control" id="txtNombre"
+                        style="background-color: #282c34; color: white; border: none">
+                    <button onclick="saludarNombre()" class="btn btn-md"
+                        style="background-color: #9DADCC">GET</button>
+                </div>
+                <div class="col-lg-8 py-5 px-5 rounded-5" style="background-color: #24314D;">
+                    <p id="txtSaludarNombre">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5">
+            <div class="form-text" style="color: #9DADCC;">saludarGeneracion();</div>
+            <div class="row">
+                <div class="col-md d-grid gap-3 align-self-center pt-3 mb-3">
+                    <input type="text" class="form-control" id="txtNombre1"
+                        style="background-color: #282c34; color: white; border: none;">
+                    <input type="number" class="form-control" id="txtAño"
+                        style="background-color: #282c34; color: white; border: none">
+                    <button onclick="saludarGeneracion()" class="btn btn-md"
+                        style="background-color: #9DADCC">GET</button>
+                </div>
+                <div class="col-lg-8 py-5 px-5 rounded-5" style="background-color: #24314D;">
+                    <p id="txtSaludarGeneracion">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5">
+            <div class="form-text" style="color: #9DADCC;">saludarZodiaco();</div>
+            <div class="row">
+                <div class="col-md d-grid gap-3 align-self-center pt-3 mb-3">
+                    <input type="text" class="form-control" id="txtNombre2"
+                        style="background-color: #282c34; color: white; border: none;">
+                    <input type="number" class="form-control" id="txtDia" min="1" max="31"
+                        style="background-color: #282c34; color: white; border: none">
+                    <input type="number" class="form-control" id="txtMes" min="1" max="12"
+                        style="background-color: #282c34; color: white; border: none">
+                    <button onclick="saludarZodiaco()" class="btn btn-md"
+                        style="background-color: #9DADCC">GET</button>
+                </div>
+                <div class="col-lg-8 py-5 px-5 rounded-5" style="background-color: #24314D;">
+                    <p id="txtSaludarZodiaco">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
